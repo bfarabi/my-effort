@@ -1,0 +1,79 @@
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    color: purple;
+}
+.headline-color{
+    color: orange;
+}
+p{
+    color: slategrey;
+    font-size: 18px;
+
+}
+.button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, rgb(7, 3, 245), rgb(0, 255, 13));
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    
+    font-size: bold;
+    
+}
+.half-part{
+width: 40%;
+margin-left: 5%;
+float: left;
+height: 120%;
+
+
+}
+.half-part img{
+    width: 100%;
+
+}
+.up-area{
+background-image: url(images/top-banner.png);
+height: 500px;
+background-repeat: no-repeat;
+
+}
+.middle-area{
+    background-image: url(images/dream-bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position:right;
+}
+#pro{
+    box-shadow: 5px 5px 20px gray;
+    padding: 10px 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,orange ,rgb(13, 240, 13));
+    border-image-slice: 1;
+    background-color: white;
+
+}
+#beginer{
+    box-shadow: 5px 5px 20px gray;
+    padding: 10px 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,rgba(255, 0, 0, 0.959) ,yellow);
+    border-image-slice: 1;
+
+}
+.experience{
+height: 400px;
+margin-bottom: 300px;
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+
+}
+footer p{
+    text-align: center;
+}
+
